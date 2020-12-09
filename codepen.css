@@ -1,0 +1,436 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#navbar ul{
+    margin:0px;
+    padding-right:30px;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: rgb(30, 11, 65);
+    position:fixed;
+    width:96%;
+    top:0px;
+}
+
+#navbar li{
+    float: left;
+}
+
+#navbar a{
+    font-size:1.5em;
+    display:block;
+    text-decoration: none;
+    padding: 16px 14px;
+    color:white;
+}
+
+#navbar a:hover{
+  background-color: rgb(101, 58, 180);
+  color:rgb(221, 221, 221);
+}
+
+#welcome-section{
+  border:1px solid rgb(158, 157, 157);
+  background-image:url('./images/pencover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  width:100%;
+  height:737px;
+}
+
+.cover{
+  background-color:rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width:100%;
+  height:737px;
+  border:1px solid rgba(0, 0, 0, 0.4) ;
+}
+
+.cover h1{
+  color:white;
+  font-size:3em;
+  position: relative;
+  top:100px;
+  left:20px
+}
+
+.cover h3{
+  color:white;
+  font-size:1.5em;
+  position: relative;
+  top:70px;
+  left:20px;
+  font-style: italic;
+  
+}
+
+#projects{
+  background-color:rgb(192, 192, 240);
+  border:1px solid rgb(192, 192, 240);
+  height:1200px;
+  position: relative;
+}
+
+#head{
+  text-align:center;
+}
+
+#head h2{
+  font-size:2.5em;
+  text-decoration: underline;
+  color:rgb(4, 5, 7)
+}
+
+
+.project-tile{
+  text-align:center;
+  background-color: black;
+  color:white;
+  width:30%;
+  height:400px;
+  overflow: hidden;
+  transition:transform .5s ease;
+  position:absolute;
+  right:30px;
+}
+
+.project-tile img{
+  width: 100%;
+
+}
+
+
+.project-title-2{
+  text-align:center;
+  background-color: black;
+  color:white;
+  width:30%;
+  height:400px;
+  overflow: hidden;
+  transition:transform .5s ease;
+  position:absolute;
+  left:530px;
+}
+
+.project-title-2 img{
+  width: 100%;
+
+}
+
+.project-title-3{
+  text-align:center;
+  background-color: black;
+  color:white;
+  width:30%;
+  height:400px;
+  overflow: hidden;
+  transition:transform .5s ease;
+  position: relative;
+  left:30px;
+}
+
+.project-title-3 img{
+  width: 100%;
+
+}
+
+
+.project-title-4{
+  text-align:center;
+  background-color: black;
+  color:white;
+  width:30%;
+  height:400px;
+  overflow: hidden;
+  transition:transform .5s ease;
+  position:absolute;
+  right:30px;
+  bottom:240px;
+}
+
+.project-title-4 img{
+  width: 100%;
+
+}
+
+
+.project-title-5{
+  text-align:center;
+  background-color: black;
+  color:white;
+  width:30%;
+  height:400px;
+  overflow: hidden;
+  transition:transform .5s ease;
+  position:absolute;
+  right:525px;
+  bottom:240px;
+}
+
+.project-title-5 img{
+  width: 100%;
+
+}
+
+.project-title-6{
+  text-align:center;
+  background-color: black;
+  color:white;
+  width:30%;
+  height:400px;
+  overflow: hidden;
+  transition:transform .5s ease;
+  position: relative;
+  top:50px;
+  left:30px;
+}
+
+.project-title-6 img{
+  width: 100%;
+
+}
+
+
+.project-title:hover{
+  transform: scale(1.1);
+}
+
+.project-title-2:hover{
+  transform: scale(1.1);
+}
+.project-title-3:hover{
+  transform: scale(1.1);
+}
+.project-title-4:hover{
+  transform: scale(1.1);
+}
+
+.project-title-5:hover{
+  transform: scale(1.1);
+}
+
+.project-title-6:hover{
+  transform: scale(1.1);
+}
+
+.show{
+  text-align:center;
+  color:white;
+  background:black;
+  width:150px;
+  height:50px;
+  position: relative;
+  top:100px;
+  left:700px;
+}
+
+.show h3{
+  padding-top:12px;
+
+}
+
+.show:hover{
+  background-color: rgb(101, 58, 180);
+}
+
+
+#footer{
+  text-align:center;
+  height:400px;
+  background-color: rgb(14, 1, 1);
+  color:white;
+  border:1px solid black;
+}
+
+
+#footer h1{
+  padding-top:40px;
+  font-size:3.5em;
+}
+
+
+#footer h3{
+  position: relative;
+  bottom:20px;
+  font-style: italic;
+}
+
+
+.icons{
+  padding-top:20px;
+  font-size:1.5em;
+}
+
+.facebook{
+  position: relative;
+  right:450px;
+  top:26px;
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+
+.twitter{
+  position: relative;
+  right:225px;
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+
+.Github{
+  position: relative;
+  bottom:28px;
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+
+.Telegram{
+  position: relative;
+  left:225px;
+  bottom:54px;
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+
+.Instagram{
+  position: relative;
+  left:450px;
+  bottom:83px;
+  overflow: hidden;
+  transition:transform .5s ease;
+}
+
+
+.last-footer{
+  font-size:1.2em;
+  text-align:center;
+  padding:20px;
+  height:30px;
+  border-top:2px solid rgb(102, 11, 11);
+  background-color:rgb(24, 24, 49);
+  color:white;
+}
+
+
+
+
+
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+  /* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+  /* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+  /* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+
+  /* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+  @media (max-width: 28.75em) {
+    #projects {
+      font-size: 4rem;
+    }
+  }
+
+
+  @media only screen and (max-width:300px) {
+    /* For mobile phones: */
+    #navbar, #welcome-section, #projects, #footer {
+      width: 100%;
+    }
+  }
